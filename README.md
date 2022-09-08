@@ -3,16 +3,22 @@ This is a i3wm config with some other tools
 
 ## 1. Start
 install dependencies
-- arch
+arch
 ```
 sudo pacman -S feh compton rofi nm-applet ranger fcitx-im fcitx-configtools fcitx-libpinyin
 ```
+
 then, get config file
 ```
 git clone https://github.com/lakefish/i3wm-config.git ~/.config/i3/
 ```
 
-## Dependencies
+or (for chinese network)
+```
+git clone https://ghproxy.com/https://github.com/lakefish/i3wm-config.git ~/.config/i3/
+```
+
+## About dependencies
 - feh (set wall paper)
 - compton (provide transparency)
 - rofi (start application)
