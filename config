@@ -91,9 +91,6 @@ bindsym $mod+Shift+d exec --no-startup-id rofi -show run
 ########################################################### Auto Start
 
 # Wallpapers
-exec_always --no-startup-id rofi -show filebrowser
-
-# Wallpapers
 exec_always --no-startup-id feh --randomize --bg-fill ~/Pictures/Wallpapers/*
 
 # Transparency
