@@ -209,7 +209,7 @@ client.background       #f5f5f5 #f5f5f5 #d3d4d8
 # Start i3bar
 bar {
     status_command i3status --config ~/.config/i3/i3status.conf
-    i3bar_command i3bar --transparency
+    #i3bar_command i3bar --transparency
     font pango:Source Code Pro 10
     position top
     separator_symbol " "
@@ -221,12 +221,12 @@ bar {
         focused_separator  #999999aa 
 
         #<class>           <border> <background> <text>
-        background         #f5f5f5ff #f5f5f5aa #d3d4d800
-        focused_background #f5f5f5aa #f5f5f5aa #d3d4d800
-        focused_workspace  #3fbac2aa #3fbac2aa #ffffff00
-        active_workspace   #999999aa #999999aa #ffffff00
-        inactive_workspace #f5f5f5aa #f5f5f5aa #00000000
+        background         #333333EE #333333EE #11AAAAAA
+        focused_background #333333EE #333333EE #11AAAAAA
+        focused_workspace  #11AAAAaa #11AAAAaa #3333335D
+        active_workspace   #333333EE #333333EE #11AAAAaa
+        inactive_workspace #333333EE #333333EE #11AAAAaa
         urgent_workspace   #f67280aa #f67280aa #ffffff00
-        binding_mode       #f67280aa #f67280aa #ffffff00
+        binding_mode       #11AAAAaa #11AAAAaa #3333335D
     }
 }
